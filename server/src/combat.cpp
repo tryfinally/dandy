@@ -230,7 +230,7 @@ std::vector<Contact> GameEngine::perform_scan(TankId tank_id, ScanType type, uin
                        ? EntityType::TankFriendly
                        : EntityType::TankEnemy;
         contact.flags = 0;
-        if (tank.is_moving()) contact.flags |= 0x01;
+        // if (tank.is_moving()) contact.flags |= 0x01;
         if (tank.owner() == scanner->owner()) contact.flags |= 0x02;
         if (tank.status().is_damaged()) contact.flags |= 0x04;
 

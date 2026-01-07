@@ -57,8 +57,8 @@ constexpr uint16_t HEALTH_PACK_AMOUNT = 30;
 
 // Upgrades
 constexpr uint8_t RADAR_UPGRADE_BONUS = 10;
-constexpr uint8_t SHIELD_DURATION_TICKS = 300;  // 5 seconds
-constexpr uint8_t SPEED_BOOST_DURATION_TICKS = 600;  // 10 seconds
+constexpr uint16_t SHIELD_DURATION_TICKS = 300;  // 5 seconds
+constexpr uint16_t SPEED_BOOST_DURATION_TICKS = 600;  // 10 seconds
 
 // Terrain movement costs (ticks per cell)
 constexpr uint8_t GROUND_COST = 1;

@@ -1,6 +1,7 @@
 #pragma once
 
 #include "dandy/protocol.hpp"
+#include "dandy/constants.hpp"
 #include <memory>
 #include <string>
 #include <queue>

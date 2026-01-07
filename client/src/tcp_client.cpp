@@ -9,6 +9,7 @@
 #include <poll.h>
 
 namespace dandy::client {
+using namespace dandy;
 
 TcpClient::TcpClient() = default;
 
